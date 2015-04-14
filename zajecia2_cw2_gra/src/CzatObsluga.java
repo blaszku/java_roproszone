@@ -70,7 +70,7 @@ public class CzatObsluga extends Thread {
 				} else if (userNumber > CzatObsluga.cyfra) {
 					this.wyjscie.println("Za duża!");
 				} else {
-					wyslijDoWszystkich("Bingo!! Użytkownik "+nick+" odgadł cyfrę: "+CzatObsluga.cyfra);
+					wyslijDoWszystkich("Bingo!! Użytkownik "+nick+" odgadNĄł cyfrę: "+CzatObsluga.cyfra);
 					this.punkty += 10;
 					info();
 					Random generator = new Random(); 
